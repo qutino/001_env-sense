@@ -670,13 +670,18 @@
       {
         "filename": "001_env-sense.kicad_sch",
         "name": "001_env-sense",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "0b0bc04d-9a58-4a7f-906b-a4797aca5e3f"
       }
     ],
     "used_designators": "J1,U1-8",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "0b0bc04d-9a58-4a7f-906b-a4797aca5e3f",
+      "001_env-sense"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
