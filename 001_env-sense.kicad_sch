@@ -2855,7 +2855,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SnapEDA:B2B-PH-K-S"
+		(symbol "Snapeda:B2B-PH-K-S"
 			(pin_names
 				(offset 1.016)
 			)
@@ -3102,151 +3102,6 @@
 				)
 			)
 			(embedded_fonts no)
-		)
-	)
-	(symbol
-		(lib_id "SnapEDA:B2B-PH-K-S")
-		(at 214.63 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "044ca975-9e4b-418a-ae41-91d9e6a7def7")
-		(property "Reference" "J2"
-			(at 222.25 109.2199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "B2B-PH-K-S"
-			(at 222.25 111.7599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Snapeda:JST_B2B-PH-K-S"
-			(at 214.63 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/B2B-PH-K-S_JST_Sales.pdf"
-			(at 214.63 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description" "Connector Header Through Hole 2 position 0.079\" (2.00mm)"
-			(at 214.63 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/B2B-PH-K-S_JST_Sales.pdf"
-			(at 214.63 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "DigiKey_Part_Number" "455-1704-ND"
-			(at 214.63 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "JST Sales"
-			(at 214.63 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MPN" "B2B-PH-K-S"
-			(at 214.63 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SOURCE_URL" "https://www.snapeda.com/parts/B2B-PH-K-S/JST/view-part/"
-			(at 214.63 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "2"
-			(uuid "cfe6d566-9db7-4edd-9b4c-548ac53b277c")
-		)
-		(pin "1"
-			(uuid "1829b1b7-54b4-473b-a7b9-bdb34fa022be")
-		)
-		(instances
-			(project "001_env-sense"
-				(path "/0b0bc04d-9a58-4a7f-906b-a4797aca5e3f"
-					(reference "J2")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -4077,6 +3932,151 @@
 			(project "001_env-sense"
 				(path "/0b0bc04d-9a58-4a7f-906b-a4797aca5e3f"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Snapeda:B2B-PH-K-S")
+		(at 217.17 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0baf36e-8227-4203-ab51-e0082ac69f4d")
+		(property "Reference" "J3"
+			(at 224.79 126.9999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B2B-PH-K-S"
+			(at 224.79 129.5399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Snapeda:JST_B2B-PH-K-S"
+			(at 217.17 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/B2B-PH-K-S_JST_Sales.pdf"
+			(at 217.17 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description" "Connector Header Through Hole 2 position 0.079\" (2.00mm)"
+			(at 217.17 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/B2B-PH-K-S_JST_Sales.pdf"
+			(at 217.17 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DigiKey_Part_Number" "455-1704-ND"
+			(at 217.17 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "JST Sales"
+			(at 217.17 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "B2B-PH-K-S"
+			(at 217.17 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SOURCE_URL" "https://www.snapeda.com/parts/B2B-PH-K-S/JST/view-part/"
+			(at 217.17 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "3a463238-0e1c-43c4-a6f5-a5b8a45ba2c3")
+		)
+		(pin "1"
+			(uuid "a593b932-0005-4bbb-a097-f75258b049f8")
+		)
+		(instances
+			(project "001_env-sense"
+				(path "/0b0bc04d-9a58-4a7f-906b-a4797aca5e3f"
+					(reference "J3")
 					(unit 1)
 				)
 			)
